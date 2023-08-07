@@ -68,11 +68,11 @@ margin-top: 30px;
 .bigboss{
   display: flex;
   margin-top: 80px;
-  margin-left: 200px;
+  margin-left: 20%;
   
 }
 .proficlePic{
-  margin-left: 150px;
+  margin-left: 12%;
  
 }
 .innerboss{
@@ -91,7 +91,8 @@ margin-top: 30px;
   font-size: 16px; 
   font-style: normal;
   font-weight: 400;
-  line-height: normal
+  line-height: normal;
+  margin-top: 30px;
 }
 .Recent{
   color: var(--dark-color, #21243D);
@@ -115,7 +116,7 @@ line-height: 60px;
  }
  .cart1{
   background-color: white;
-  margin-left: 280px;
+  margin-left: 20%;
   width: 418px;
 height: 295px;
 margin-bottom: 5px;
@@ -126,7 +127,7 @@ margin-bottom: 5px;
   margin-right: 20px;
   width: 418px;
   height: 295px;
-  margin-right: 195px;
+  margin-right: 15%;
  }
  .cartInfo1{
   color: var(--dark-color, #21243D);
@@ -181,7 +182,7 @@ font-size: 44px;
 font-style: normal;
 font-weight: 700;
 line-height: 60px;
-margin-left: 235px;
+margin-left: 30%;
  }
  
  .BlogInfo{
@@ -191,17 +192,17 @@ font-size: 30px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin-left: 235px;
+margin-left: 30%;
  }
  .handlebar{
   color: gray;
   
  }
  .blogTime{
-  margin-left: 235px;
+  margin-left:30%;
  }
  .blogreview{
-  margin-left: 235px;
+  margin-left: 30%;
   color: var(--dark-color, #21243D);
 font-family: Heebo;
 font-size: 16px;
@@ -212,5 +213,9 @@ width: 682px;
 height: 43px;
  }
  .line{
-  margin-left: 235px;
+  margin-left: 30%;
+ }
+ .blogCenter{
+  align-items: center;
+  align-self: center;
  }

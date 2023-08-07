@@ -1,38 +1,216 @@
-.App {
-  text-align: center;
+
+.active{
+  color: palevioletred;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+   text-align: right;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 40px;
+   
+   
+ }
+ li{
+  margin-left: 30px;
+  text-align: right;
+  text-decoration: none;
+
+ }
+ nav{
+  margin: 0;
+  padding: 0;
+ }
+
+ .jhon{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+ }
+ .Intro{
+  width: 440px;
+height: 105px;
+margin-left: 50px;
+
+ }
+.info{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 500px;
+margin-left: 50px;
+margin-top: 40px;
+
+}
+.button{
+  background-color: #ff6e6e;
   color: white;
+font-family: Heebo;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 50px;
+border-radius: 5px;
+margin-top: 30px;
+}
+.bigboss{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 200px;
+  
+}
+.proficlePic{
+  margin-left: 150px;
+ 
+}
+.innerboss{
+  margin-left: 30px;
+}
+.nav2{
+  display: flex;
+  margin-left: 280px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.View{
+  color: var(--secondry, #00A8CC);
+   margin-right: 195px;
+  font-family: Heebo;
+  font-size: 16px; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal
+}
+.Recent{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+ .bigboss1{
+  background-color: rgb(225, 248, 255);
+  height: 396px;
+  align-items: center;
+  
+ } 
+ .innerbox1{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .cart1{
+  background-color: white;
+  margin-left: 280px;
+  width: 418px;
+height: 295px;
+margin-bottom: 5px;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .cart2{
+  background-color: white;
+  margin-right: 20px;
+  width: 418px;
+  height: 295px;
+  margin-right: 195px;
+ }
+ .cartInfo1{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 20px;
+ }
+ .cartInfo2{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 20px;
+ }
+ .Date1{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 20px;
+ }
+ .Date2{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 20px;
+ }
+ .cart-inner-data{
+  width: 368px;
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 20px;
+ }
+ .Blogs{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+margin-left: 235px;
+ }
+ 
+ .BlogInfo{
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 235px;
+ }
+ .handlebar{
+  color: gray;
+  
+ }
+ .blogTime{
+  margin-left: 235px;
+ }
+ .blogreview{
+  margin-left: 235px;
+  color: var(--dark-color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 682px;
+height: 43px;
+ }
+ .line{
+  margin-left: 235px;
+ }

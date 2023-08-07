@@ -1,221 +1,213 @@
-
-.active{
+.active {
   color: palevioletred;
 }
 
 ul {
   list-style: none;
   display: flex;
-   text-align: right;
-   flex-direction: row;
-   justify-content: flex-end;
-   margin-right: 40px;
-   
-   
- }
- li{
+  text-align: right;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+li {
   margin-left: 30px;
   text-align: right;
   text-decoration: none;
-
- }
- nav{
+}
+nav {
   margin: 0;
   padding: 0;
- }
-
- .jhon{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 44px;
-font-style: normal;
-font-weight: 700;
- }
- .Intro{
-  width: 440px;
-height: 105px;
-margin-left: 50px;
-
- }
-.info{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 500px;
-margin-left: 50px;
-margin-top: 40px;
-
 }
-.button{
+
+.jhon {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+}
+.Intro {
+  width: 440px;
+  height: 105px;
+  margin-left: 50px;
+}
+.info {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.button {
   background-color: #ff6e6e;
   color: white;
-font-family: Heebo;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-border: none;
-padding: 10px;
-padding-left: 20px;
-padding-right: 20px;
-margin-left: 50px;
-border-radius: 5px;
-margin-top: 30px;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 30px;
 }
-.bigboss{
+.bigboss {
   display: flex;
   margin-top: 80px;
-  margin-left: 20%;
-  
+  margin-left: 14%;
 }
-.proficlePic{
+.proficlePic {
   margin-left: 12%;
- 
 }
-.innerboss{
+.innerboss {
   margin-left: 30px;
 }
-.nav2{
+.nav2 {
   display: flex;
   margin-left: 280px;
   margin-top: 50px;
   justify-content: space-between;
 }
-.View{
-  color: var(--secondry, #00A8CC);
-   margin-right: 195px;
+.View {
+  color: var(--secondry, #00a8cc);
+  margin-right: 195px;
   font-family: Heebo;
-  font-size: 16px; 
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-top: 30px;
 }
-.Recent{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 60px;
+.Recent {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
 }
 
- .bigboss1{
+.bigboss1 {
   background-color: rgb(225, 248, 255);
   height: 396px;
   align-items: center;
-  
- } 
- .innerbox1{
+}
+.innerbox1 {
   display: flex;
   justify-content: space-between;
-  
- }
- .cart1{
+}
+.cart1 {
   background-color: white;
   margin-left: 20%;
   width: 418px;
-height: 295px;
-margin-bottom: 5px;
- }
+  height: 295px;
+  margin-bottom: 5px;
+}
 
- .cart2{
+.cart2 {
   background-color: white;
   margin-right: 20px;
   width: 418px;
   height: 295px;
   margin-right: 15%;
- }
- .cartInfo1{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 20px;
- }
- .cartInfo2{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 20px;
- }
- .Date1{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 20px;
- }
- .Date2{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 20px;
- }
- .cart-inner-data{
+}
+.cartInfo1 {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+}
+.cartInfo2 {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+}
+.Date1 {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
+.Date2 {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
+.cart-inner-data {
   width: 368px;
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 20px;
- }
- .Blogs{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 44px;
-font-style: normal;
-font-weight: 700;
-line-height: 60px;
-margin-left: 30%;
- }
- 
- .BlogInfo{
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-left: 30%;
- }
- .handlebar{
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
+.Blogs {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-left: 30%;
+}
+
+.BlogInfo {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 30%;
+}
+.handlebar {
   color: gray;
-  
- }
- .blogTime{
-  margin-left:30%;
- }
- .blogreview{
+}
+.blogTime {
   margin-left: 30%;
-  color: var(--dark-color, #21243D);
-font-family: Heebo;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 682px;
-height: 43px;
- }
- .line{
+}
+.blogreview {
   margin-left: 30%;
- }
- .blogCenter{
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 50%;
+  height: 43px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+.line {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.blogCenter {
   align-items: center;
   align-self: center;
- }
+}
